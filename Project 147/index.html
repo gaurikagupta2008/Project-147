@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+  <html>
+
+    <head>
+      <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    </head>
+
+    <body>
+        <a-scene>
+          <!--Sky-->
+          <a-sky
+          src="./sky.jpg"
+          >
+          </a-sky>
+
+          <!--Ground-->
+          <a-plane position="0 -2 -8" height="10" width="25" id="ground" rotation="-90 0 0"
+          src="https://assets.bldnxt.in/catalog/product/cache/1/image/a77c1558d860704591e3027d1ebed402/n/s/nsas585478_exce585478_5bb02e6103eec.jpg"
+          >
+          </a-plane>
+
+          <!--Wall-->
+          <a-box position="0 4 -12" height="17" width="26" id="wall" 
+          src="https://assets.bldnxt.in/catalog/product/cache/1/image/a77c1558d860704591e3027d1ebed402/n/s/nsas585478_exce585478_5bb02e6103eec.jpg"
+          >
+          </a-box>
+
+          <!--Carpet-->
+          <a-plane position="0 0.1 -3.5" height="2" width="3" id="carpet" rotation="-90 0 0"
+          src="./carpet.png"
+          >
+          </a-plane>
+
+          <!--Chair 1-->
+          <a-cylinder position="-4 1 -6.5" height="0.1" width="2" radius="2.5" id="chair" rotation="-90 12 0"
+          src="./chair_final.png"
+          >
+          </a-cylinder>
+
+          <!--Chair 2-->
+          <a-cylinder position="4 1 -6.5" height="0.1" width="2" radius="2.5" id="chair" rotation="-90 -14 0"
+          src="./chair_final_2.png"
+          >
+          </a-cylinder>
+
+          <!--Table Base-->
+          <a-cylinder position="0 0.5 -3.5" height="0.3" radius="0.5" id="table-base" rotation="90 180 90"
+          src="./chair.jpeg"
+          >
+          </a-cylinder>
+
+          <!--Table Top-->
+          <a-cylinder position="0 1 -3.5" height="0.3" width="0.1" radius="0.8" rotation="0 0 0" id="table-top"
+          src="./dining-table.jpeg"
+          >
+          </a-cylinder>   
+          
+          <!--Poster 1-->
+          <a-box position="-2 3.5 -3.5" height="2" width="2" depth="0.001" id="poster_1"
+          src="./poster1.png"          
+          >
+          </a-box>
+
+          <!--Poster 2-->
+          <a-box position="2 3.5 -3.5" height="2" width="2" depth="0.001" id="poster_1"
+          src="./poster2.png"          
+          >
+          </a-box>
+        </a-scene>
+    </body>
+
+  </html>
+
